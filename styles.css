@@ -1,0 +1,52 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+header {
+    margin: 2%;
+}
+h1 {
+    text-align: center;
+}
+section#report {
+    margin: 5%;
+}
+input {
+    padding: 10px;
+}
+textarea {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+label {
+    padding: 10px 0;
+    font-weight: bold;
+}
+input[name="report_number"] {
+    display: inline-block;
+}
+#div_company {
+    text-align: right;
+}
+table {
+    border: 1px solid #000000;
+    width: 100%;
+    margin: 30px 0;
+}
+td, th {
+    border: 1px solid #000000;
+}
+td input {
+    width: 100%;
+    box-sizing: border-box;
+}
+section#controls {
+    text-align: center;
+}
